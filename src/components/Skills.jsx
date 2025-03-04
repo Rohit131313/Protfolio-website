@@ -3,7 +3,6 @@ import ReactECharts from 'echarts-for-react';
 
 const Skills = () => {
   const skillCategories = [
-    [
       {
         "name": "Programming Languages",
         "skills": [
@@ -83,8 +82,7 @@ const Skills = () => {
           { "name": "Time Management", "level": 85 },
           { "name": "Teamwork", "level": 80 }
         ]
-      }
-    ]    
+      }   
   ];
 
   const getChartOptions = (skills) => ({
