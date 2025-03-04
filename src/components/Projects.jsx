@@ -1,24 +1,24 @@
-import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { motion } from "framer-motion";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
   const projects = [
-      {
-        "title": "Uber Taxi Data Pipeline And Analytics",
-        "description": "Developed an end-to-end data engineering pipeline leveraging Mage AI for ETL, ingesting Uber taxi data from Google Cloud Storage, transforming it on Google Compute Engine, and storing it in BigQuery using optimized fact and dimension tables.",
-        "technologies": ["Mage AI", "Google Compute Engine", "SQL", "BigQuery", "Looker"],
-        "github": "https://github.com/Rohit131313/Uber-Data--Engineering-Pipeline.git",
-        "live": "",
-        "image": "https://drive.google.com/file/d/1GRkTkZmQ_eFn1W3ahZnyS2SX9LB8qsu9/view?usp=sharing"
-      },
-      {
-        "title": "MediSense-AI",
-        "description": "Built an Agentic AI for medical knowledge retrieval using LangGraph, integrating vector databases and web services with Adaptive RAG to dynamically route queries based on complexity.",
-        "technologies": ["LangGraph", "PyPDF", "Gemini-2.0", "Pinecone"],
-        "github": "https://github.com/Rohit131313/MediSense-AI.git",
-        "live": "",
-        "image": "https://drive.google.com/file/d/1UYuLTP49xUY6BQ88D-Y8cmiFFxJWKIAx/view?usp=sharing"
-      }    
+    {
+      "title": "Uber Taxi Data Pipeline And Analytics",
+      "description": "Developed an end-to-end data engineering pipeline leveraging Mage AI for ETL, ingesting Uber taxi data from Google Cloud Storage, transforming it on Google Compute Engine, and storing it in BigQuery using optimized fact and dimension tables.",
+      "technologies": ["Mage AI", "Google Compute Engine", "SQL", "BigQuery", "Looker"],
+      "github": "https://github.com/Rohit131313/Uber-Data--Engineering-Pipeline.git",
+      "live": "",
+      "image": "https://drive.google.com/file/d/1GRkTkZmQ_eFn1W3ahZnyS2SX9LB8qsu9/view?usp=sharing"
+    },
+    {
+      "title": "MediSense-AI",
+      "description": "Built an Agentic AI for medical knowledge retrieval using LangGraph, integrating vector databases and web services with Adaptive RAG to dynamically route queries based on complexity.",
+      "technologies": ["LangGraph", "PyPDF", "Gemini-2.0", "Pinecone"],
+      "github": "https://github.com/Rohit131313/MediSense-AI.git",
+      "live": "",
+      "image": "https://drive.google.com/file/d/1UYuLTP49xUY6BQ88D-Y8cmiFFxJWKIAx/view?usp=sharing"
+    }
   ];
 
   return (
@@ -71,14 +71,16 @@ const Projects = () => {
                   >
                     <FaGithub className="mr-2" /> Code
                   </a>
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-gray-400 hover:text-primary transition-colors"
-                  >
-                    <FaExternalLinkAlt className="mr-2" /> Live Demo
-                  </a>
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-400 hover:text-primary transition-colors"
+                    >
+                      <FaExternalLinkAlt className="mr-2" /> Live Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>
