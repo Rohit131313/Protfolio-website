@@ -3,7 +3,6 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
   const projects = [
-    [
       {
         "title": "Uber Taxi Data Pipeline And Analytics",
         "description": "Developed an end-to-end data engineering pipeline leveraging Mage AI for ETL, ingesting Uber taxi data from Google Cloud Storage, transforming it on Google Compute Engine, and storing it in BigQuery using optimized fact and dimension tables.",
@@ -19,9 +18,7 @@ const Projects = () => {
         "github": "https://github.com/Rohit131313/MediSense-AI.git",
         "live": "",
         "image": "https://drive.google.com/file/d/1UYuLTP49xUY6BQ88D-Y8cmiFFxJWKIAx/view?usp=sharing"
-      }
-    ]
-    
+      }    
   ];
 
   return (
