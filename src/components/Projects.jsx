@@ -9,7 +9,7 @@ const Projects = () => {
       "technologies": ["Mage AI", "Google Compute Engine", "SQL", "BigQuery", "Looker"],
       "github": "https://github.com/Rohit131313/Uber-Data--Engineering-Pipeline.git",
       "live": "",
-      "image": "https://drive.google.com/file/d/1GRkTkZmQ_eFn1W3ahZnyS2SX9LB8qsu9/view?usp=sharing"
+      "image": "https://drive.google.com/uc?export=view&id=1GRkTkZmQ_eFn1W3ahZnyS2SX9LB8qsu9"
     },
     {
       "title": "MediSense-AI",
@@ -17,7 +17,7 @@ const Projects = () => {
       "technologies": ["LangGraph", "PyPDF", "Gemini-2.0", "Pinecone"],
       "github": "https://github.com/Rohit131313/MediSense-AI.git",
       "live": "",
-      "image": "https://drive.google.com/file/d/1UYuLTP49xUY6BQ88D-Y8cmiFFxJWKIAx/view?usp=sharing"
+      "image": "https://drive.google.com/uc?export=view&id=1UYuLTP49xUY6BQ88D-Y8cmiFFxJWKIAx"
     }
   ];
 
