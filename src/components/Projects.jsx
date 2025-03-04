@@ -9,7 +9,7 @@ const Projects = () => {
       "technologies": ["Mage AI", "Google Compute Engine", "SQL", "BigQuery", "Looker"],
       "github": "https://github.com/Rohit131313/Uber-Data--Engineering-Pipeline.git",
       "live": "",
-      "image": "https://drive.google.com/uc?export=view&id=1GRkTkZmQ_eFn1W3ahZnyS2SX9LB8qsu9"
+      "image": "https://imagekit.io/public/share/yektos0qe/bb7d04ae0ef34a45577240f8eb275de581aae6153f320e7c78ad9d911f96d1bfc5f743b334f6006685db2aef52e886861e431f917c1f6448a60ddc23f5e4748c2c5da92e5ec3ec3858e0efbf102dca95"
     },
     {
       "title": "MediSense-AI",
@@ -17,7 +17,7 @@ const Projects = () => {
       "technologies": ["LangGraph", "PyPDF", "Gemini-2.0", "Pinecone"],
       "github": "https://github.com/Rohit131313/MediSense-AI.git",
       "live": "",
-      "image": "https://drive.google.com/uc?export=view&id=1UYuLTP49xUY6BQ88D-Y8cmiFFxJWKIAx"
+      "image": "https://imagekit.io/public/share/yektos0qe/bb7d04ae0ef34a45577240f8eb275de581aae6153f320e7c78ad9d911f96d1bfc5f743b334f6006685db2aef52e8868661d47e3256f2c0ef18772dda4222126d780d0e52d570b3b3a4406c0563e80994"
     }
   ];
 
